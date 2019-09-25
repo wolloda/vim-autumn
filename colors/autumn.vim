@@ -87,9 +87,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("FoldColumn", "", 'background', "")
 	if version >= 700
 		call <SID>X("CursorLine", "", 'line', "none")
-		hi CursorLine ctermfg=NONE guifg=NONE
 		call <SID>X("CursorColumn", "", 'line', "none")
-		hi CursorColumn ctermfg=NONE guifg=NONE
 		call <SID>X("PMenu", 'foreground', 'selection', "none")
 		call <SID>X("PMenuSel", 'foreground', 'selection', "reverse")
 		call <SID>X("SignColumn", "", 'background', "none")
