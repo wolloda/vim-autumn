@@ -84,7 +84,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("WarningMsg", 'red', "", "")
 	call <SID>X("MatchParen", "", 'selection', "")
 	call <SID>X("Folded", 'comment', 'background', "")
-	call <SID>X("FoldColumn", "", 'background', "")
+	call <SID>X("FoldColumn", "comment", 'background', "")
 	if version >= 700
 		call <SID>X("CursorLine", "", 'line', "none")
 		call <SID>X("CursorColumn", "", 'line', "none")
